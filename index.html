@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title> Single Page Website </title>
-
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 	<link rel="stylesheet" href="css.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
@@ -17,24 +18,23 @@
 </head>
 <body>
   <div id="nav">	
-
-    <div class="container-fluid">
+  	<div class="container-fluid">
 		    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
 			  <a class="navbar-brand" href="#">
 			  	<img src="image/logo.png" class="img-fluid" height="60px" width="217px">
 			  </a>
-				  <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
 				  </button>
 			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			    <div class="navbar-nav ml-auto">
 			      <a class="nav-item nav-link active" href="#"> HOME <span class="sr-only">(current)</span></a>
 			      <a class="nav-item nav-link" href="#about"> ABOUT </a>
-			      <a class="nav-item nav-link" href="#">SERVICE</a>
-			      <a class="nav-item nav-link" href="#"> PORTFOLIO </a>
-			      <a class="nav-item nav-link" href="#"> PRICING </a>
+			      <a class="nav-item nav-link" href="#services">SERVICE</a>
+			      <a class="nav-item nav-link" href="#portfolio"> PORTFOLIO </a>
+			      <a class="nav-item nav-link" href="#pricing"> PRICING </a>
 			      <a class="nav-item nav-link" href="#"> PAGES </a>
-			      <a class="nav-item nav-link" href="#"> CONTACT </a>
+			      <a class="nav-item nav-link" href="#contact"> CONTACT </a>
 			      
 			    </div>
 			 </div>
@@ -66,8 +66,8 @@
       <div class="row">
     	<div class="col-md-6  align-item-center ">
     		<div class="slide_cont">
-    			<h2 class="c_heading">My Passion</h2>
-    		    <p class="c_p">Im Full stack web developer</p>
+    			<h2 class="c_heading">Developer </h2>
+    		    <p class="c_p">I design and code beautifully simple things, and I love what I do.</p>
     		    <a href="#" class="readmore">Read more</a>
     		</div>
     		
@@ -106,8 +106,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="about_header">
-				<h2>ABOUT US</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet</p>
+				<h2>ABOUT ME</h2>
+				<p>Hi, I’m Govind Punchal . Nice to meet you.</p>
 			</div>
 
 			<div class="col-md-12 pt-5">
@@ -156,11 +156,11 @@
 
 <!-----about us clear--------->
 
-<div style="clear: both;width: 100%" class="services">
+<div style="clear: both;width: 100%" class="services" id="services">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 services_heading">
-				<h2>ABOUT US</h2>
+				<h2>OUR SERVICE</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet</p>
 			</div>
 			<div class="col-sm-6 col-md-4 col-lg-3 mt-5 ">
@@ -218,7 +218,7 @@
 
 <!--------Call to action part closed------>
 
-<div class="our_pricing">
+<div class="our_pricing" id="pricing">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 services_heading">
@@ -227,7 +227,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4 col-sm-6">
+			<div class="col-md-4 col-sm-6 mt-3">
 				<div class="card text-light">
 				  <div class="card-header bg-dark">
 				  	<div><h2>Silver</h2></div>
@@ -291,7 +291,7 @@
 </div>
 </div>
 
-<div class="our_skill py-5">
+<div class="our_skill py-5" id="portfolio">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 services_heading">
@@ -349,16 +349,26 @@
 </div>
 <!-----our skill complate----->
 
-<div class="c_projet">
+<div class="c_projet" >
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-sm-6 c__project_cnt">
-				<div><h5>Icon</h5></div>
+				<div>
+					<h5>
+					  <span class="material-icons">
+supervisor_account
+</span>
+					</h5>
+			  </div>
 				<div><h1 class="counter">150</h1></div>
 				<div><p>Our Staffs</p></div>
 			</div>
 			<div class="col-md-6 col-sm-6 c__project_cnt">
-				<div><h5>Icon</h5></div>
+				<div><h5>
+					<span class="material-icons">
+record_voice_over
+</span>
+				</h5></div>
 				<div><h1 class="counter">2000</h1></div>
 				<div><p>Our Client</p></div>
 			</div>
@@ -366,12 +376,20 @@
 		
 		<div class="row">	
 			<div class="col-md-6 col-sm-6 c__project_cnt">
-				<div><h5>Icon</h5></div>
+				<div><h5>
+					<span class="material-icons">
+wash
+</span>
+				</h5></div>
 				<div><h1 class="counter">1500</h1></div>
 				<div><p>Complated project</p></div>
 			</div>
 			<div class="col-md-6 col-sm-6 c__project_cnt">
-				<div><h5>Icon</h5></div>
+				<div><h5>
+					<span class="material-icons">
+assessment
+</span>
+				</h5></div>
 				<div><h1 class="counter">400</h1></div>
 				<div><p>Running Project</p></div>
 			</div>
@@ -519,7 +537,7 @@
 </div> 
 <!-------meet our team complate ---->
 
-<div class="our_client p-5">
+<div class="our_client p-5" id="contact">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 services_heading">
@@ -569,7 +587,7 @@
 			<div class="header_head"><h5>ABOUT US</h5></div>
 			<div class="f_link">
 				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
+				<li><a href="#a">About</a></li>
 				<li><a href="#">Service</a></li>
 				<li><a href="#">Portfolio</a></li>
 				<li><a href="#">cotact us</a></li>
@@ -590,11 +608,11 @@
 		<div class="col-md-3 mt_f">
 			 <div class="header_head"><h5>CONTACT US</h5></div>
 			 <div class="f_contact">
-				<p>1300 Center Avenue</p>
-				<p>Fresno, California</p>
-				<p>United States </p>
-				<p>Phone: +123-456-7890</p>
-				<p>Email: info@example.com</p>
+				<p>1300 Jodhpur </p>
+				<p>12th Circle</p>
+				<p>Rajasthan , Jodhpur </p>
+				<p>Phone: +91-6354437034</p>
+				<p>Email: Govind Punchal</p>
 			</div>
 			<div class="social-icon">
 				<li>f</li>
@@ -611,6 +629,9 @@
 			 </div>
 		</div>
 	</div>
+	</div>
+	<div class="float-right">
+		<a href="#nav">sds</a>
 	</div>
 </div>
 

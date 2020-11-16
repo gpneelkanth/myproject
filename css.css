@@ -471,6 +471,8 @@ form
 }
 
 
+
+
 /* Media Query */
 
 @media only screen and (max-width: 600px)
@@ -539,8 +541,36 @@ form
    }
    .f_desc p
    {
-    border:1px solid red;
     text-align: left;
     line-height: 25px;
+   }
+   .navbar-toggler-icon
+   {
+    
+    color:white;
+   }
+   .cl_t_a_btn
+   {
+     position: absolute;
+     left: 120px;
+   }
+   .card-header h1
+   {
+     text-align: center;
+   }
+   .pri_f
+   {
+    text-align: center!important;
+      
+   }
+   .c__project_cnt
+   {
+  
+     margin:20px auto; 
+    /*border-bottom:1px solid red;*/
+   }
+   .c__project_cnt h5 span
+   {
+    font-size: 90px;
    }
 }
